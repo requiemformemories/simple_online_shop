@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :shops, only: [:index,:show] do
     resources :products, only: [:index,:show]
   end
-  resources :user, except: :show do
+  resources :user do
     resources :shops
   end
   

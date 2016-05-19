@@ -47,6 +47,7 @@ group :development do
   gem 'spring'
 
   gem 'bcrypt'
+  gem 'settingslogic'
 
 end
 
